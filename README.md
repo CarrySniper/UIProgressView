@@ -3,8 +3,9 @@
 
 
 ##效果图
-![](https://github.com/cjq002/Chat-Bubble/raw/master/Media/video.gif)
+![](https://github.com/cjq002/UIProgressView/raw/master/Media/video.gif)
 
+##创建、初始化UI控件
 ```
 #pragma mark - 创建、初始化UI控件
 - (UIProgressView *)createProgressView
@@ -25,9 +26,9 @@
     return progressView;
 }
 ```
-
+##设置图片 改变高度
 ```
-//设置痕迹图片    （setProgressTintColor将失效）
+    //设置痕迹图片    （setProgressTintColor将失效）
     UIImage *progressImage = [UIImage imageNamed:@"tint"];
     self.progressView.progressImage = progressImage;
     
