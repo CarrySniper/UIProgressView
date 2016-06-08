@@ -3,7 +3,7 @@
 
 
 ##效果图
-![](https://github.com/cjq002/UIProgressView/raw/master/Media/vedio.gif)
+![](https://github.com/cjq002/UIProgressView/raw/master/Media/video.gif)
 
 ##创建、初始化UI控件
 ```
